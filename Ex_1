@@ -1,0 +1,22 @@
+# (Calculadora De Soma Simples) 
+# Receba Dois Numeros Do Usuario E Exiba A Soma Deles
+""" 
+ Sei Que Não é Efetivo Adicinar Funções Em Códigos Simples Que São 
+ Fáceis de Resolver E Não Se Repetem, Porém Usei Funções Neste E Em
+ Outros Exercícios Para Treinar O Uso Delas
+ 
+"""
+
+# ---Sum Function --------------------------------------
+def sumFun(x, y):
+    z = x + y
+    return z
+# ---Sum Function --------------------------------------
+
+# ---Main Code -----------------------------------------
+num1 = int(input("Chose One Number: \n"))
+num2 = int(input("Chose Another Number: \n"))
+
+print(f"The Sum Of {num1} + {num2} = {sumFun(num1, num2)}!\n")
+print("End Of Program\n")
+# ---Main Code -----------------------------------------
