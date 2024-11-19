@@ -1,0 +1,18 @@
+# (Verificador De Numero Par Ou Impar)
+# Peça Ao Usuario Um Numero Inteiro E Informe Se Ele E Par Ou Impar
+
+# ---Impar/Par Funcion-------------------------
+def imPar(num):
+    if (num % 2) == 0:
+        return 0
+    else:
+        return 1
+# ---Impar/Par Funcion-------------------------
+
+# ---Main Function-----------------------------
+number = int(input("Chose A Number: \n"))
+if imPar(number) == 0:
+    print("This Number Is Even!")
+else:
+    print("This Number Is Odd!")
+# ---Main Function-----------------------------
