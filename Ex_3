@@ -1,0 +1,14 @@
+# (Conversor De Temperatura)
+# Receba Uma Temperatura Em Graus Celsius E Converta Para Fahrenheit Usando A Formula:
+# F = C * 1.8 + 32
+
+# ---Converter Function----------------------------
+def convertFunc(C):
+    F = (C * 1.8) + 32
+    return F
+# ---Conversor Function----------------------------
+
+# ---Main Code-------------------------------------
+temp = int(input("What Is The Temperature?\n"))
+print(f"This Temperature In Fahrenheight Is {convertFunc(temp)}!\n")
+# ---Main Code-------------------------------------
