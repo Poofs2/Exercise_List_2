@@ -1,0 +1,7 @@
+# (Contador De Caracteres Em Uma Palavra)
+# Solicite Uma Palavra Do Usuario E Exiba Quantos Caracteres Ela Possui
+
+# ---Main Code------------------------------
+palavra = input("Chose A Word:\n")
+print(f"{palavra.capitalize()} Has A Lengh Of {len(palavra)} Letters!")
+# ---Main Code------------------------------
